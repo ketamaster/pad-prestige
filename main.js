@@ -30,19 +30,21 @@ form.addEventListener("submit", function (e) {
 
   if (inputNombre.length != 0 && inputCBU != 0 && inputAlias.length != 0) {
     cbuxl.addEventListener("click", () => {
-      const texto = `Buenas! 👋🏼 *POR FAVOR NUNCA ENVÍE DINERO SIN CONSULTAR CBU ANTES* ⚠️ Nuestro cbu va cambiando, si envia dinero a una cuenta inactiva lo pierde.
+      const texto = `Buenas! 👋🏼 *RECUERDE CONSULTAR CBU ANTES DE TRANSFERIR* ⚠️ 
 
 *Cuenta a nombre de:* *${inputNombre}*
 🔹*CBU:* *${inputCBU}*
 🔹*ALIAS:* *${inputAlias}*
 
-😄 Estimado cliente, se le informa que para cargas menores a $3.000 se debe abonar un recargo de $30 💰
-Ejemplo: $1.000 = $1.030
+‼️ Para *cargas menores a $3.000* se debe abonar un recargo de $30 
+*Ejemplo: $1.000 = $1.030*
 
 Si no envían los $30 se les descontará del total de su carga.
-Ejemplo: $1.000 = $970
+*Ejemplo: $1.000 = $970* ‼️
 
-Envíe el comprobante de la transferencia seguido de su usuario *para poder cargarle las fichas*. 💥 *MÍNIMO DE CARGA: $800* 
+Envíe el comprobante de transferencia y su usuario *para poder cargarle las fichas.* 💥 
+
+*MÍNIMO DE CARGA: $800*
 
 📲 Para jugar ingrese aquí jugalodos.com`;
       const elementoTemporal = document.createElement("textarea");
