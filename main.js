@@ -44,7 +44,7 @@ Si no envían los $30 se les descontará del total de su carga.
 
 Envíe el comprobante de transferencia y su usuario *para poder cargarle las fichas.* 💥 
 
-*MÍNIMO DE CARGA: $800*
+*NO TENEMOS MÍNIMO DE CARGA*
 
 📲 Para jugar ingrese aquí jugalodos.com`;
       const elementoTemporal = document.createElement("textarea");
@@ -101,11 +101,11 @@ registrar.addEventListener("click", function (e) {
 });
 
 bienvenida.addEventListener("click", () => {
-  const texto = `Hola! 😃 Bienvenido/a Caba Prestige 👑 
+  const texto = `Hola! 😃 *Bienvenido/a Caba Prestige* 👑 
 Tu casino online de confianza 🤝
 
-🤑 MINIMO DE CARGA: $800
-🤑 MINIMO DE RETIRO: $2.000
+🤑 *NO TENEMOS MÍNIMO DE CARGA*
+🤑 *MINIMO DE RETIRO*: $1.500
 
 Para comenzar a jugar con nosotros te pido tu nombre y apellido así podemos generarte un usuario! ⬇️`;
   const elementoTemporal = document.createElement("textarea");
@@ -128,8 +128,8 @@ En nuestra plataforma vas a encontrar los mismos juegos que en un casino físico
 ➡️ Baccarat
 ➡️ Bingo
 
-🔻*Mínimo* de carga $800
-🔻*Mínimo* de retiro $2.000
+🔻*Mínimo* de carga NO TENEMOS
+🔻*Mínimo* de retiro $1.500
 🔻*Máximo* de retiro NO TENEMOS
 
 💻 Nuestra plataforma es jugalodos.com
@@ -152,7 +152,7 @@ retirar.addEventListener("click", () => {
 ➡️ CBU o ALIAS:
 ➡️ Monto que desea retirar:
 
-🤑 *Puede retirar a partir de $2.000*
+🤑 *Puede retirar a partir de $1.500*
 Una vez que complete los datos, le retiramos las fichas y lo enviamos al área de pagos para que le abonen su premio.
 
 🙏🏼 *POR FAVOR, SEA PACIENTE Y AGUARDE SU TURNO, EL PAGO PUEDE DEMORAR UN RATO.*`;
